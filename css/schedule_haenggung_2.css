@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+
+.firstMent {
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.firstMent h1 {
+    margin-bottom: 15px;
+    font-weight: bold;
+    overflow:visible;
+}
+
+
+.ment {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.ment th, td {
+    padding: 6rem;  
+    text-align:left;
+}
+
+.haenggung_img {
+    width: 100%;
+    max-width: 400px;
+    min-width: 300px;
+    height: auto;
+    
+}
+
+.ment p {
+    flex: 1;
+    flex-direction: column;
+    font-size: smaller;
+}
+
+@media (max-width : 1000px){
+    .container {
+        align-content: center;
+    }
+    table, th, td {
+        display: block;
+        align-content: center;
+    }
+    th, td {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0px auto;
+    }
+    td {
+        padding: -50px;
+    }
+    img {
+        margin-bottom: -80px;
+    }
+}
+
+
+
+
+
+
+/* 일정 파트 */
+.sche_table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.sche_table tr {
+    border-bottom: 1px solid #ccc;
+}
+
+.sche_table td {
+    vertical-align: top;
+    padding: 2rem;  
+    text-align:center;
+    
+}
+
+.sche_table h3 {
+    font-size: xx-large;
+    overflow: visible;
+}
+
+.sche_table a {
+    font-size: 1.1em;
+    margin-bottom: 100px;
+}
+
+
+.sche_table a:hover {
+    color: rgb(106, 255, 47) !important;
+    cursor: pointer !important;
+}
+
+
+
+
+
+
+/* 부트스트랩 */
+
+.carousel {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    min-width: 450px;
+}
+
+.carousel-item img {
+    width: 100%;
+    max-width: 450px; 
+    height: auto; 
+    object-fit: contain; 
+    margin: 0 auto;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 100%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(0%);
+    height: auto; /* Ensure the height is auto so it doesn't stretch */
+    pointer-events: none; /* Allow click-through */
+}
+
+.carousel-control-prev {
+    left: 0;
+}
+
+.carousel-control-next {
+    right: 0;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    pointer-events: all; /* Re-enable pointer events on the icons */
+}
+
+
+
+
+
